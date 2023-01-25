@@ -7,7 +7,7 @@
 
 /*
  * File:   main.h
- * Author: Alex Katrompas
+ * Author: William Rogers
  */
 
 #ifndef MAIN_CLASSES_H
