@@ -39,6 +39,7 @@ public:
      * Getters
      * Things that return class atributes
      * They never modify anything
+     * never create a value inside
      */
     int getWidth();
     int getHeight();
