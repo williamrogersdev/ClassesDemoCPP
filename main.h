@@ -15,6 +15,5 @@
 
 #include "box.h"
 #include "functions.h"
-#include <iostream>
 
 #endif /* MAIN_CLASSES_H */

@@ -2,8 +2,8 @@
 // Created by William Rogers on 1/24/23.
 //
 /*
- *
- *
+ * No Code , No Logic in this file
+ * Just what can go in and out
  *
  *
  */
@@ -25,14 +25,20 @@ public:
      * constructors
      * one with no params, one with params (overloading)
      */
+
+    //default constructor that says how to create if nothing gets passed on
     Rectangle();
+    //override. An Optional if two are passed in
     Rectangle(int, int);
 
     //destructor (not used in this example)
+    // method that is called automatically when the object goes out of scope. DO not ever call a destructor manually
     ~Rectangle();
 
     /*
      * Getters
+     * Things that return class atributes
+     * They never modify anything
      */
     int getWidth();
     int getHeight();
@@ -40,6 +46,7 @@ public:
 
     /*
      * Setters
+     * They modify atributes
      */
     void setWidth(int);
     void setHeight(int);
